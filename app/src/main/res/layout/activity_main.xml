@@ -15,6 +15,7 @@
         android:backgroundTint="#D3BFDF"
         android:onClick="click"
         android:text="Click"
+        android:textColor="#B1B0B0"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

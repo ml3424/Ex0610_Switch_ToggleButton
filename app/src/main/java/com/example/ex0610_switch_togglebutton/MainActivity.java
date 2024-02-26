@@ -30,5 +30,23 @@ public class MainActivity extends AppCompatActivity {
         back = findViewById(R.id.back);
 
     }
-    
+
+    public void click(View view) {
+        if(tgbtn.isChecked() && swi.isChecked())
+        {
+            back.setBackgroundColor(0xFF88AFAA);
+        }
+        else if(tgbtn.isChecked() && !swi.isChecked())
+        {
+            back.setBackgroundColor(0xFFB1B0B0);
+        }
+        else if(!tgbtn.isChecked() && swi.isChecked())
+        {
+            back.setBackgroundColor(0xFFD6C6C6);
+        }
+        else
+        {
+            back.setBackgroundColor(0xFFE41A1A);
+        }
+    }
 }
